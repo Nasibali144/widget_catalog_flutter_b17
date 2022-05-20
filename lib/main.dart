@@ -5,6 +5,7 @@ import 'package:widget_catalog_flutter_b17/pages/challenge_four.dart';
 import 'package:widget_catalog_flutter_b17/pages/challenge_one.dart';
 import 'package:widget_catalog_flutter_b17/pages/challenge_three.dart';
 import 'package:widget_catalog_flutter_b17/pages/home_page.dart';
+import 'package:widget_catalog_flutter_b17/pages/lesson_seven.dart';
 import 'package:widget_catalog_flutter_b17/pages/lesson_three.dart';
 import 'package:widget_catalog_flutter_b17/pages/lesson_two.dart';
 
@@ -38,7 +39,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: ChallengeFive(),
+      home: LessonSeven(),
       routes: {
         HomePage.id: (context) => HomePage(),
         LessonTwo.id: (context) => LessonTwo(),
@@ -47,6 +48,7 @@ class MyApp extends StatelessWidget {
         ChallengeThree.id: (context) => ChallengeThree(),
         ChallengeFour.id: (context) => ChallengeFour(),
         ChallengeFive.id: (context) => ChallengeFive(),
+        LessonSeven.id: (context) => LessonSeven(),
       },
     );
   }
